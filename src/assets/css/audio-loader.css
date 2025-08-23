@@ -1,0 +1,27 @@
+/* audio-loader.css */
+
+.audio-gradient {
+    display: inline-block;
+    background: linear-gradient(to right, #eb5286, #f98e32, #8a63d2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.audio-gradient-red {
+    background: linear-gradient(to right, #f43f5e, #ff7e67, #ffb85d);
+}
+
+.audio-gradient-yellow {
+    background: linear-gradient(to right, #ffca3a, #fffb7d, #ffca3a);
+}
+
+.audio-gradient-green {
+    background: linear-gradient(to right, #00f0b5, #00e0b3, #00b3e0);
+}
+
+.audio-gradient-blue {
+    background: linear-gradient(to right, #4e54c8, #8f94fb, #4e54c8);
+}

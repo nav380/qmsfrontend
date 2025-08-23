@@ -5,7 +5,7 @@ import axios from 'axios';
 function Dashboard() {
 
   useEffect(() => {
-    fetchDefectData();
+    //fetchDefectData();
 }, []);
 
 const fetchDefectData = () => {
@@ -22,5 +22,6 @@ const fetchDefectData = () => {
     <div>Dashboard</div>
   )
 }
+
 
 export default Dashboard

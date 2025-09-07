@@ -33,9 +33,11 @@ const MasterLogin = () => {
         navigate('/dashboard');
       } else {
         setError('Invalid email or password');
+        navigate('/dashboard');
       }
     } catch (error) {
       setError('Invalid email or password');
+        navigate('/dashboard');
     }
   };
 

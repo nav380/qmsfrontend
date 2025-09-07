@@ -17,7 +17,7 @@ const MasterLogin = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
+    try {navigate('/dashboard');
       const response = await axios.get(`${DjangoConfig.apiUrl}/qms/users/`, {
         email,
         password
